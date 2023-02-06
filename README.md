@@ -13,7 +13,7 @@ Apache, PHP, JavaScript, Bootstrap, Docker.
  __db_init__ _*carrega arquivos do db_
 
 ```bash
-$ git clone https://github.com/newtoncutrim/crud.git
+$ git clone https://github.com/newtoncutrim/maximizeapi.git
 $ docker-compose up --build -d
 ```
 Rodando em http://localhost:8000
