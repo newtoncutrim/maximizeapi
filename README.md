@@ -1,4 +1,4 @@
-## Case INKLO 
+## MAXIMIZE API
 
 #### listagem de devs
 
