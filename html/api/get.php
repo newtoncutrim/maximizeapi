@@ -21,7 +21,7 @@ if($method === 'get'){
                 'title' => $data['title'],
                 'descricao' => $data['descricao'],
                 'texto' => $data['texto'],
-                'data' => $data['data'],
+                'datas' => $data['datas'],
                 'img' => $data['img']
             ];
 

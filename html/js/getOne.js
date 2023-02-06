@@ -14,7 +14,7 @@ function getOnUser(){
         let img = document.querySelector('#img')
         
 
-        const dataBanco = new Date(dados.data);
+        const dataBanco = new Date(dados.datas);
         const dia = dataBanco.getDate().toString().padStart(2, '0');
         const mes = (dataBanco.getMonth() + 1).toString().padStart(2, '0');
         const ano = dataBanco.getFullYear();

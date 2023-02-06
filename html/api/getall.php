@@ -13,7 +13,7 @@ if($method === 'get'){
                 'descricao' => $item['descricao'],
                 'texto' => $item['texto'],
                 'title' => $item['title'],
-                'data' => $item['data'],
+                'datas' => $item['datas'],
                 'img' => $item['img']
             ];
         }
@@ -22,4 +22,3 @@ if($method === 'get'){
     $array['error'] = 'Metodo nao reconhecido';
 }
 require_once('../return.php');
-//

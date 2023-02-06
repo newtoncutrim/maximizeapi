@@ -1,30 +1,41 @@
 <?php
-require_once('../config.php');
+//inserir novo post
 
-$method = strtolower( $_SERVER['REQUEST_METHOD']);
 
-if($method === 'post'){
-    $title = filter_input(INPUT_POST, 'title');
-    $descricao = filter_input(INPUT_POST, 'descricao');
+// require_once('../config.php');
 
-    if($title && $descricao){
-        $sql = $conn->prepare("INSERT INTO descricao (title, descricao) VALUES(:title, :descricao)");
-        $sql->bindValue(':tile', $title);
-        $sql->bindValue(':descricao', $descricao);
-        $sql->execute();
+// $method = strtolower( $_SERVER['REQUEST_METHOD']);
 
-        $id = $conn->lastInsertId();
+// if($method === 'post'){
+//     $title = $_POST['titulo'];
+//     $descricao = $_POST['descricao'];
+//     $texto = $_POST['texto'];
+//     $data = date('Y-m-d');
+//     $img = $_POST['img'];
 
-        $array['result'] = [
-            'id' => $id,
-            'title' => $title,
-            'descricao' => $descricao
-        ];
-    } else {
-        $array['error'] = 'campos nao enviados';
-    }
+
+//     if(isset($_POST) && !empty($_POST)){
+//         $sql = "INSERT INTO descricao (title, descricao, texto, datas, img) VALUES('{$title}','{$descricao}','{$texto}','{$data}', '{$img}')";
+
+//         $result = $conn->query($sql);
+
+//         $id = $conn->lastInsertId();
+
+        
+//         $array['result'] = [
+//             'id' => $id,
+//             'title' => $title,
+//             'descricao' => $descricao,
+//             'texto' => $texto,
+//             'datas' => $data
+//         ];
+//     } else {
+//         $array['error'] = 'campos nao enviados';
+//     }
     
-} else {
-    $array['error'] = 'Metodo nao reconhecido somente POST';
-}
-require_once('../return.php');
+// } else {
+//     $array['error'] = 'Metodo nao reconhecido somente POST';
+// }
+// require_once('../return.php');
+
+

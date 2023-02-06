@@ -8,10 +8,9 @@ function getAll(){
         let pai = document.querySelector('.lista')
         
         
-        
         let conteudo = ``
         dados.forEach(element => {
-            const dataBanco = new Date(element.data);
+            const dataBanco = new Date(element.datas);
             const dia = dataBanco.getDate().toString().padStart(2, '0');
             const mes = (dataBanco.getMonth() + 1).toString().padStart(2, '0');
             const ano = dataBanco.getFullYear();

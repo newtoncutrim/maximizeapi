@@ -15,6 +15,7 @@
     ?>
     <nav class='navegacao'>
         <a id="link" href="">Blog</a>
+        <!-- <a href="template/form.php" id="link">Adicionar</a> -->
     </nav>
 
 <section class='main' >
