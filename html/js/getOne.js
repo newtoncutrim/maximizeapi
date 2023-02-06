@@ -25,7 +25,7 @@ function getOnUser(){
         descricao.append(dados.descricao)
         texto.append(dados.texto)
         data.append(dataBrasil)
-
+        
     })
     .catch(error => console.log(error))
 }
