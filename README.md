@@ -2,10 +2,14 @@
 
 #### listagem de devs
 
-<!-- ![app](docs/app.jpg) -->
+![app](img/app.JPG)
 
 > tecnológias usadas \
-Apache, PHP, JavaScript, Bootstrap, Docker.
+* Apache 
+* PHP
+* JavaScript 
+* Bootstrap
+* Docker
 
  __./template__ _*arquivos de desenvolvimento do frontend_ \
  __./js__ _*funções para renderizar dados da api_  \
@@ -14,6 +18,7 @@ Apache, PHP, JavaScript, Bootstrap, Docker.
 
 ```bash
 $ git clone https://github.com/newtoncutrim/maximizeapi.git
+$ cd maximizeapi
 $ docker-compose up --build -d
 ```
 Rodando em http://localhost:8000

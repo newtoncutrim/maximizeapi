@@ -21,7 +21,7 @@ function getAll(){
             <div class=" item card">
                 <div class=" row g-0">
                     <div class="pai col-6 col-md5">
-                        <img src="${element.img}" class="card-img img-fluid rounded-start" alt="">
+                        <img src="${element.img}" class="card-img img-fluid rounded-start h-100" alt="">
                     </div>
                     <div class="col-6 col-md7">
                         <div class="card-body d-flex flex-colum">
