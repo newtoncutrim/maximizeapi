@@ -2,7 +2,7 @@
 
 #### listagem de devs
 
-![app](img/app.JPG)
+![app](html/img/app.jpg)
 
 > tecnológias usadas \
 * Apache 
