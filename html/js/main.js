@@ -48,28 +48,3 @@ function getAll(){
 }
 getAll();
 
-
-// let ite = document.querySelector('.item')
-        // let h = ite.querySelector('h1')
-        // let descricao = ite.querySelector('.descricao')
-
-
-// let newUser = {
-//     title: 'novo',
-//     descricao: 'novo',
-//     data: '20230203'
-// }
-// function addUser(){
-//     axios.post(url, newUser)
-//     .then(response =>{
-//         alert(JSON.stringify(response.data))
-       
-//     })
-//     .catch(error => console.log(error))
-
-// }
-// addUser();
-
-
-
-
